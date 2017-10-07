@@ -7,6 +7,8 @@ Update for SFE mothod, New Feature Selection Tool
 
 File:  
        feature_selection.py
+Data:
+	bairong.csv
 
 main function:
 	
@@ -53,22 +55,22 @@ the tool has been tested on dataset of bairong(bairong_train.csv)
 OFE test:
 
 	estimator = SVM()
-	im_method= ‘tree’
-	sel_method = ‘ofe’:
+	im_method= 'tree'
+	sel_method = 'ofe':
 
 	estimator = SVM()   	
-	im_method= ‘lasso’
-	sel_method = ‘ofe’
+	im_method= 'lasso'
+	sel_method = 'ofe'
 
 SFE test:
 
 	estimator = DecisionTreeClassifier()
-	im_method= ‘tree’
-	sel_method = ‘sfe’
+	im_method= 'tree'
+	sel_method = 'sfe'
 
 	estimator = SVM()
- 	im_method= ‘tree’
-        sel_method = ‘sfe’
+	im_method= 'tree'
+	sel_method = 'sfe'
 
 
 
