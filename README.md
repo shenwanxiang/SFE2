@@ -4,12 +4,9 @@ Update for SFE mothod, New Feature Selection Tool
 @date:2017-08-28
 @author:charleshen
 
-
-File:  
-       feature_selection.py
+File: feature_selection.py
        
-Data:
-       bairong.csv
+Data: bairong.csv
 
 main function:
 	
